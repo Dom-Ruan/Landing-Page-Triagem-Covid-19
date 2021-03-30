@@ -577,6 +577,11 @@ Objetivos Styles
   color: #ebc634;
 }
 
+#objetivos{
+  background-color: #db4339;
+  color: white;
+}
+
 /*------------------------
 Screenshot Styles
 ------------------------*/
@@ -634,7 +639,7 @@ Screenshot Styles
 }
 
 #description{
-  background-color: #db4339;
+  background-color: grey;
   color: white;
 }
 
@@ -652,6 +657,9 @@ Apoiadores
     height: 130px;
     text-align: center;
     float: left;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 50px;
 }
 
 #download{
