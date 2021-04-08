@@ -460,7 +460,7 @@ Banner Styles
   background-attachment: fixed;
   background-size: cover;
   position: relative;
-  color: #ffffff;
+  color: white;
   overflow: hidden;
 }
 .banner-item:before {
@@ -470,13 +470,10 @@ Banner Styles
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(5, 128, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 1;
 }
 
-/* .banner-1 {
-  background-image: url(../images/banner/1.jpg);
-} */
 
 .banner-content {
   position: absolute;
@@ -552,14 +549,24 @@ Intro Styles
   transition: all 0.3s ease;
   border: 1px solid transparent;
 }
-.intro-item:hover {
-  border-color: #c0392b;
+.problematica:hover {
+  background-color: black;
+  color: white;
+}
+
+.objetivos:hover {
+  background-color: white;
+  color: black;
+}
+
+.description:hover {
+  background-color: black;
+  color: white;
 }
 
 .intro-icon {
   font-size: 4rem;
   line-height: 1;
-  color: #c0392b;
 }
 
 .intro-title {
@@ -573,13 +580,13 @@ Intro Styles
 Objetivos Styles
 ------------------------*/
 #problematica{
-  background-color: #001878;
-  color: #ebc634;
+  background-color: rgba(255,255,255,0.8);
+  color: black;
 }
 
-#metas{
-  background-color: #db4339;
-  color: #ffffff;
+#objetivos{
+  background-color: rgba(0,0,0,0.8);
+  color: white;
 }
 
 /*------------------------
@@ -587,7 +594,8 @@ Screenshot Styles
 ------------------------*/
 
 #screenshot{
-  background-color: #a1ba9e;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
 }
 
 .screen-mock {
@@ -639,15 +647,15 @@ Screenshot Styles
 }
 
 #description{
-  background-color: grey;
-  color: white;
+  background-color: rgba(255,255,255,0.8);
+  color: black;
 }
 
 /*------------------------
 Apoiadores
 ------------------------*/
 #apoiadores{
-  background-color: #ebc634;
+  background-color: rgba(255,255,255,0.8);
 }
 .logo-apoiador {
     display: inline-block;
@@ -663,7 +671,7 @@ Apoiadores
 }
 
 #download{
-  background-color: #001878;
-  color: red;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
   height: 400px;
 }
