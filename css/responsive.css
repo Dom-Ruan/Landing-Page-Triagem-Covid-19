@@ -38,6 +38,7 @@ All responsive css rule
     margin-right: 0;
     border-radius: 0;
     border-color: #ffffff;
+    background-color: #000000;
     margin-top: 33px;
     margin-bottom: 33px;
   }
@@ -106,6 +107,7 @@ All responsive css rule
 
   .navbar-header {
     float: none;
+    background-color: #ffffff;
   }
 
   .navbar-left,
